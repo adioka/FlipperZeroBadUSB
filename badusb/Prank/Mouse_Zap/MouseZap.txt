@@ -1,0 +1,36 @@
+REM Title: MouseZap
+REM Author: Kavitate
+REM Target: Windows
+REM Version: 1.1
+REM Category: Prank
+REM Flipper: Place under SD Card/badusb/ — use Bad USB app
+REM Operation: Changes the primary mouse button and sets the cursor speed to slow.
+REM Note: Arrow keys use Flipper-compatible RIGHTARROW/LEFTARROW names.
+DELAY 500
+GUI r
+DELAY 500
+STRING C:\Windows\System32\main.cpl
+DELAY 500
+ENTER
+DELAY 500
+STRING S
+TAB
+TAB
+TAB
+TAB
+TAB
+TAB
+RIGHTARROW
+RIGHTARROW
+TAB
+LEFTARROW
+LEFTARROW
+LEFTARROW
+LEFTARROW
+LEFTARROW
+LEFTARROW
+LEFTARROW
+LEFTARROW
+LEFTARROW
+LEFTARROW
+ENTER

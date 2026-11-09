@@ -1,0 +1,10 @@
+REM Title: High-Contrast
+REM Author: Kavitate
+REM Target: Windows
+REM Version: 1.0
+REM Category: Prank
+REM Flipper: Place under SD Card/badusb/ — use Bad USB app
+REM Operation: Activates the high contrast setting within Windows making everything appear darker.
+ALT-SHIFT PRINTSCREEN
+DELAY 950
+ENTER

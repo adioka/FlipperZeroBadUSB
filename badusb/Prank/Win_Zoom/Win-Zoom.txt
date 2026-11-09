@@ -1,0 +1,13 @@
+REM Title: Win-Zoom
+REM Author: Kavitate
+REM Target: Windows
+REM Version: 1.0
+REM Category: Prank
+REM Flipper: Place under SD Card/badusb/ — use Bad USB app
+REM Operation: Zooms in on the display three times to make everything appear larger.
+REM Revert: hold Windows key and press - until zoom is normal.
+GUI +
+DELAY 500
+GUI +
+DELAY 500
+GUI +
