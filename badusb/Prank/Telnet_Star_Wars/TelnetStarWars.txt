@@ -1,0 +1,22 @@
+REM Title: TelnetStarWars
+REM Author: Kavitate
+REM Target: Windows
+REM Version: 1.2
+REM Category: Prank
+REM Credit: https://asciimation.co.nz/index.php
+REM Flipper: Place under SD Card/badusb/ — use Bad USB app
+REM Operation: Opens elevated Command Prompt, enables Telnet, then plays Star Wars ASCII.
+REM Note: Requires admin UAC accept (ALT y assumes English Windows). Needs network access.
+DELAY 900
+GUI r
+DELAY 900
+STRING cmd
+CTRL-SHIFT ENTER
+DELAY 900
+ALT y
+DELAY 1500
+STRING dism /online /Enable-Feature /FeatureName:TelnetClient
+ENTER
+DELAY 3000
+STRING telnet towel.blinkenlights.nl
+ENTER
